@@ -27,5 +27,6 @@ class ExcelUtil:
 
 if __name__ == '__main__':
     print(os.getcwd())
+    print(os.getcwd())
     ExcelUtil().get_object_path()
     print(ExcelUtil().read_excel())
